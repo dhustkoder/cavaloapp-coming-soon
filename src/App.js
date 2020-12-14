@@ -1,11 +1,7 @@
 import React, {useState} from 'react';
-import logo from './logo2.svg';
 import './App.css';
 
 import apisauce from 'apisauce';
-
-
-
 
 function App() {
   const api = apisauce.create({
@@ -45,9 +41,10 @@ function App() {
       <header className="App-header">
         <img src={'/logo.png'} className="App-logo" alt="logo" />
         <p>
-          O aplicativo CAVALO APP vem para unir em um só lugar todas as vertentes de trabalho relacionadas ao mundo<br/>
-          primeia rede social voltada ao mundo dos cavalos com o CLUBE DO CAVALO, onde os usuários poderão postar<br/>
-          status e interagir.<br/>
+          O aplicativo <strong>CAVALO APP</strong> vem para unir em um só lugar todas as vertentes de trabalho relacionadas ao mundo equestre <br/>
+          como leilões, veterinários, ferreiros, venda de animais, <br/><br/>
+          além de vir com a proposta de se tornar a primeira rede social voltada ao mundo dos cavalos com o <strong>CLUBE DO CAVALO</strong>, <br/>
+          onde os usuários poderão postar status e interagir.<br/>
         </p>
         <p>
           Cadastre seu melhor e-mail abaixo
@@ -82,6 +79,7 @@ function App() {
         }
 
       </header>
+      
     </div>
   );
 }
