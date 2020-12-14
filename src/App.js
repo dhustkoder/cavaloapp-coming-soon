@@ -9,7 +9,7 @@ import apisauce from 'apisauce';
 
 function App() {
   const api = apisauce.create({
-    baseURL: 'http://192.168.15.12:3333',
+    baseURL: 'http://31.220.59.226:3333',
     headers: {
       'Content-Type': 'application/json'
     }
