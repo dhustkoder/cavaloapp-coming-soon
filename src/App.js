@@ -49,7 +49,7 @@ function App() {
           status e interagir.<br/>
         </p>
         <p>
-          Cadastre seu melhor abaixo
+          Cadastre seu melhor e-mail abaixo
         </p>
         {
           error ? (
