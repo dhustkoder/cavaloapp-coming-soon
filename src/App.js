@@ -9,7 +9,7 @@ import apisauce from 'apisauce';
 
 function App() {
   const api = apisauce.create({
-    baseURL: 'http://31.220.59.226:3333',
+    baseURL: 'https://cavaloapp.com.br/comingsoonemail',
     headers: {
       'Content-Type': 'application/json'
     }
@@ -29,6 +29,7 @@ function App() {
     setLoading(false);
     if (resp.data && resp.data.success) {
       setSuccess(true);
+      setError(undefined);
     }  else {
       setSuccess(undefined);
       setError('Algo deu errado... por favor tente novamente!');
